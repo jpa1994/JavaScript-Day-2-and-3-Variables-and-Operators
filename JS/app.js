@@ -11,8 +11,8 @@ const isStudent = false;
 let tempurature = 79.6; // Number
 let greeting = "Hello!"; // String
 let isLoggedIn = false; // Boolean
-let emptyValue; // null
-let notDefined; // undefined
+//let emptyValue; // null
+//let notDefined; // undefined
 
 // Basic setup for sending data to HTML console.
 console.log("Hey Trey!");
