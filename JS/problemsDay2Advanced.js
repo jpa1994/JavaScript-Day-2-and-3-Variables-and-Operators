@@ -26,3 +26,23 @@ console.log(`${celsius}°C is equal to ${fahrenheit}°F`);
 
 console.log(`Data type of Celsius input: ${typeof celsius}`);
 console.log(`Data type of Fahrenheit result: ${typeof fahrenheit}`);
+
+// Problem 3: Discount Calculator
+
+let price1 = 50;
+let price2 = 35;
+let price3 = 20;
+
+let discountThreshold = 70; // Minimum total for discount
+let discount = 20; // Discount
+
+let total = price1 + price2 + price3;
+
+if (total >= discountThreshold) {
+    total -= discount;
+}
+
+let finalMessage = `Original total: $${price1 + price2 + price3}, Final total after discount: $${total}`;
+
+console.log(finalMessage);
+console.log(typeof total);
