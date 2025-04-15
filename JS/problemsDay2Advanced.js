@@ -16,14 +16,13 @@ console.log(typeof isStudentU);
 
 function convertToFahrenheit(celsius) {
     let fahrenheit = (celsius * 9 / 5) + 32;
-
     return fahrenheit;
 }
 
-let celsiusValue = 20;
-let fahrenheitValue = convertToFahrenheit(celsiusValue);
+let celsius = 25;
+let fahrenheit = convertToFahrenheit(celsius);
 
-console.log ('${celsiusValue} is equal to ${fahrenheitValue}');
+console.log(`${celsius}°C is equal to ${fahrenheit}°F`);
 
-console.log(`Data type of Celsius input: ${typeof celsiusValue}`);
-console.log(`Data type of Fahrenheit result: ${typeof fahrenheitValue}`);
+console.log(`Data type of Celsius input: ${typeof celsius}`);
+console.log(`Data type of Fahrenheit result: ${typeof fahrenheit}`);
